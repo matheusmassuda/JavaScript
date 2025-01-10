@@ -7,34 +7,36 @@ Repositório com **projetos, exercícios, resumos e insights** realizados durant
 Este repositório reúne: **conhecimentos adquiridos** e **exercícios práticos** desenvolvidos para consolidar os fundamentos da linguagem **JavaScript.** O objetivo é não apenas aprimorar habilidades na linguagem por meio de projetos e desafios que reforçam conceitos essenciais, mas também **compartilhar** a experiência e a bagagem acumuladas ao longo da jornada de aprendizado.
 
 ## Conteúdo  
-### 📂 Curso em Vídeo (Módulo a):
+### 📂 Curso em Vídeo (JavaScript):
+#### 🗃️ Módulo a:
 - **Conceitos e Exercícios Práticos:**
    - História e primeiros passos no JavaScript
-   - Criação do primeiro script  
-    
-### 📂 Curso em Vídeo (Módulo b):
+   - Criação do primeiro script
+  
+#### 🗃️ Módulo b:
 - **Conceitos e Exercícios Práticos:** 
      - Definição de variáveis e tipos primitivos
      - Tratamento de dados: `string`, `number`, `boolean`, `Undefined`, `Null`
      - Trabalhando com operadores aritméticos e booleanos para cálculos e condições
 
- ### 📂 Curso em Vídeo (Módulo c):
+ #### 🗃️ Módulo c:
 - **Conceitos e Exercícios Práticos:**
      - Introdução ao [Document Object Model - DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model)
      - Eventos no DOM
 
-### 📂 Curso em Vídeo (Módulo d):
+#### 🗃️ Módulo d:
 - **Conceitos iniciais e Exercícios Práticos:** (iframes, formulários, Media Queries e projeto prático)
      - Aplicação de lógica de programação com condições amplas `if else`
      - Aplicação de lógica de programação com condições simples `switch case`
      - Resolução de exercícios de estruturas condicionais
 
-### 📂 Curso em Vídeo (Módulo e):
+#### 🗃️ Módulo e:
 - **Conceitos iniciais e Exercícios Práticos:** (Direção, alinhamento, anatomia e propriedades de eixos)
      - Aplicação de lógica de programação com estruturas de repetição `while` e `Do while` para automatizar tarefas repetitivas
      - Aplicação de lógica de programação com estruturas de iteração `for` para automatizar tarefas repetitivas com iterações (saltos) manipuláveis
 
 ### 📂 Programação Web (JavaScript):
+#### 🗃️ Aula 1 até 17:
 - **Conceitos iniciais e Exercícios Práticos:**
      - **Introdução ao JavaScript:** Aplicação de scripts básicos e integração de JavaScript com HTML5 e CSS3 utilizando seletores
      - **Gerenciamento de Escopo:** Exploração dos conceitos de escopo de variáveis com `var`, `let` e `const`, incluindo exemplos práticos.
