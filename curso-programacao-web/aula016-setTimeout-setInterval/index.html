@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout e setInterval</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1, h2 {
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    button {
+        margin: auto;
+        margin-top: 40px;
+        width: 250px;
+        height: 100px;
+    }
+
+    .button-one {
+        margin-left: 225px;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+    }
+
+    .button-two {
+        background-color: tomato;
+        color: white;
+        font-size: 15px;
+    }
+
+</style>
+<body>
+    <h1>Controle de tempo</h1>
+    <h2 id="tempo">10</h2>
+    <button onclick="ativarContagemRegressiva()" class="button-one" onclass="start">Ativar Contagem</button>
+    <button onclick="pararContagem()" class="button-two" class="stop">Parar Contagem</button>
+
+    <script src="SetTimeout-Setinterval.js"></script>
+</body>
+</html>

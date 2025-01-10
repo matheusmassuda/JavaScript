@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        span {
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Interno e Externo</h1>
+    <p>É possível escrever <span>dentro da tag</span> script ou <span>referenciar com src = " "</span> a tag script e linkar com <span>arquivo.js</span> externo.</p>
+    <p>A tag script vem no <span>final a tag body</span> pois o documento HTML é lido de cima para baixo e é preferível renderizar primeiro o HTML e CSS antes de rodar os scripts (que afetarão o HTML e CSS). Além de que é mais demorado renderizar scripts, então é indicado já deixar o usua´rio com "algun conteúdo" caso haja demora para renderizar.</p>
+
+    <script src="script.js">
+        alert('Teste de script interno de JS');
+    </script>
+</body>
+</html>

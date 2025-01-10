@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(218, 210, 210);
+        }
+
+        main {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.253);
+            width: 700px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            padding: 15px;
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin-bottom: 20px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        div {
+            height: 20px;
+        }
+
+        div.containerTesteUm {
+            display: flex;
+            margin: auto auto;
+            margin-top: 20px;
+            width: 60%;
+            height: 100px;
+            border-radius: 5px;
+            box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.45);
+            justify-content: center;
+            align-items: center;
+            background: rgb(207, 138, 138);
+            font-size: 2em;
+            color: rgb(63, 17, 17);
+        }
+
+        input {
+            display: flex;
+            width: 230px;
+            margin: auto auto;
+            padding: 10px;
+
+        }
+
+
+    </style>
+</head>
+<body onload="alert('A página terminou de carregar.')" onresize="console.log('Houve redimensionamento de página.')">
+    <main>
+        <h1>Eventos</h1>
+
+        <h2>Eventos de clique no JS</h2>
+        <p id="texto"></p>
+        <button onclick="eventoOnclick()">onclick (clique simples)</button>
+        <button ondblclick="eventoOndblclick()">ondblclick (clique duplo)</button>
+
+        <h2>Eventos de arrasto / mouse no JS</h2>
+        <button type="button" onmouseover="eventoOnmouseover()">onmouseover (mouse em cima)</button>
+        <button type="button" onmouseout="eventoOnmouseout()">onmouseout (mouse saindo)</button>
+        <button type="button" onmousemove="mudarTextoInterno()" onmouseleave = 'resetarTextoInterno()'>onmousmove (mouse movendo dentro)</button>
+        <button type="button" onmousedown='mudarNomeComClique()'>onmousedown (mouse clicou)</button>
+        <button type="button" onmouseup='voltarNomeOriginalSoltandoMouse()'>onmouseup (clique soltou)</button>
+        <div class="containerTesteUm" id="containerUm">1</div>
+        
+        <h2>Eventos de campos / formulários no JS</h2>
+        <input type="text" name="textOneName" id="textOneName" placeholder="Campo em foco, mudado e sai do foco" onfocus="mudarCorBorda()" onchange="mudarCorBackground()" onblur="eventoOnclick()">
+
+        <h2>Eventos de tecla pressionada no JS</h2>
+        <input type="number" name="textTwoNumber" id="textTwoNumber" onkeypress="teclaPressionada()" onkeyup="mudarCorBackground()" placeholder="Precione e Solte alguma tecla">
+        <div></div>
+    </main>
+
+    <script src="eventos.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+    --man-color: rgb(184, 207, 240);
+    --woman-color: rgb(247, 221, 243);
+
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 109, 109);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    color: black;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 2px 4px 4px  rgba(0, 0, 0, 0.24);
+    
+    width: 500px;
+}
+
+img#image {
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
