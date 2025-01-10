@@ -46,6 +46,15 @@ Este repositório reúne: **conhecimentos adquiridos** e **exercícios práticos
      - **Arrays:** Definição de conceitos básicos
      - **Classes:** Definição de conceitos básicos
 
+### 📂 Exercícios (JavaScript):
+#### 🗃️ Listas:
+   - **Lista 1:** Exercícios `if else` - [Ciência da Computação: Algoritmos - Istituto Federal de Educação, Ciência e Tecnologia Catarinense (Videira)](https://videira.ifc.edu.br/ciencia-da-computacao/)
+   - **Lista 2:** Exercícios **gerais** de JS e com estruturas `if else` - Técnico em Informática: Introdução à Programação
+   - **Lista 3:** Exercícios **gerais** de JS e com estruturas re repetição `While` e `For` - Técnico em informática: Lógica de Programação
+
+#### 🗃️ node-readlineSync:
+   - **Exercícios 1 ao 35:** Exercícios **gerais** de programação em JS com a biblioteca readlineSync e NodeJS - [Exercícios de JavaScript](https://www.youtube.com/watch?v=0mHEuja3c_Y&list=PLHqoKScEn2PuAxQBubqmXHKbnAkrkHFIy&index=1)
+
 ## Ferramentas Utilizadas  
 - [**JavaScript:**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) Para adicionar interatividade e lógica às páginas web 
 - [**HTML5:**](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference) Para estruturar os elementos das páginas.
